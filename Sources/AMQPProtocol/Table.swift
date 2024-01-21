@@ -11,12 +11,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#if os(Linux)
-@preconcurrency
 import struct Foundation.Date
-#else
-import struct Foundation.Date
-#endif
 
 import NIOCore
 
